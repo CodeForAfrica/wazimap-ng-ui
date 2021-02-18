@@ -26,7 +26,7 @@ export class Config {
     get rootGeography() {
         if (this.config["root_geography"] != undefined)
             return this.config["root_geography"];
-        return "ZA";
+        return "KE";
     }
 
     get preferredChildren() {
