@@ -35,11 +35,7 @@ export class Config {
             config = this.config["preferred_children"]
 
         const defaultConfig = {
-            country: ['province'],
-            province: ['district', 'municipality'],
-            district: ['municipality'],
-            municipality: ['mainplace', 'planning_region', 'ward'],
-            mainplace: ['subplace']          
+            country: ['county']         
         }        
 
         return {...defaultConfig, ...config}
@@ -56,12 +52,7 @@ export class Config {
     get geographyLevels() {
         return {
             country: 'Country',
-            province: 'Province',
-            district: 'District',
-            municipality: 'Municipality',
-            mainplace: 'Mainplace',
-            subplace: 'Subplace',
-            ward: 'Ward'
+            county: 'County'
         }
     }
 
@@ -96,7 +87,7 @@ export class Config {
         if (this.config["default_coordinates"] != undefined)
             config = this.config["default_coordinates"]
 
-        const defaultConfig = {'lat': -28.995409163308832, 'long': 25.093833387362697, 'zoom': 6}
+        const defaultConfig = {'lat': 0.3051933453207569, 'long':  37.908818734483155, 'zoom': 6}
 
         return {...defaultConfig, ...config}
     }

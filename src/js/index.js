@@ -7,8 +7,8 @@ import {API} from './api';
 import * as Sentry from '@sentry/browser';
 import { getHostname, loadDevTools }from './utils';
 
-const mainUrl = 'https://staging.wazimap-ng.openup.org.za';
-const productionUrl = 'https://production.wazimap-ng.openup.org.za';
+const mainUrl = 'https://v2.hurumap.org';
+const productionUrl = 'https://v2.hurumap.org';
 let config = new SAConfig();
 
 let hostname = getHostname();
@@ -85,6 +85,10 @@ const profiles = {
     },
     'ccij-water.openup.org.za': {
         baseUrl: productionUrl,
+        config: config
+    },
+    'v2.pesayetu.pesacheck.org': {
+        baseUrl: 'https://v2.hurumap.org',
         config: config
     }
 }

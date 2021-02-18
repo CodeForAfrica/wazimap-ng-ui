@@ -44,8 +44,8 @@ async function getProfileData(profileUrl) {
 
 export async function install() {
   let data = []
-  let profileUrl = 'https://production.wazimap-ng.openup.org.za/api/v1/profiles';
-  let stagingProfileUrl = 'https://staging.wazimap-ng.openup.org.za/api/v1/profiles';
+  let profileUrl = 'https://v2.hurumap.org/api/v1/profiles';
+  let stagingProfileUrl = 'https://v2.hurumap.org/api/v1/profiles';
   data = data.concat(await getProfileData(profileUrl))
   data = data.concat(await getProfileData(stagingProfileUrl))
   const devtools = new DevTools({
