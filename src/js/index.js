@@ -7,12 +7,12 @@ import { API } from './api';
 import * as Sentry from '@sentry/browser';
 import { getHostname, loadDevTools } from './utils';
 
-const mainUrl = 'https://v2.hurumap.org';
+const mainUrl = 'http://127.0.0.1:8000';
 const productionUrl = 'https://v2.hurumap.org';
 let config = new SAConfig();
 
 let hostname = getHostname();
-const defaultProfile = 8;
+const defaultProfile = 1;
 const defaultUrl = productionUrl;
 const defaultConfig = new SAConfig();
 
@@ -88,6 +88,10 @@ const profiles = {
         config: config
     },
     'v2.pesayetu.pesacheck.org': {
+        baseUrl: productionUrl,
+        config: config
+    },
+    'v2.pesayetu.hurumap.org': {
         baseUrl: productionUrl,
         config: config
     }
