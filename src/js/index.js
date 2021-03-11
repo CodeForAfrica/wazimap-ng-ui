@@ -1,11 +1,11 @@
 import 'babel-polyfill';
 
 import configureApplication from './load';
-import {Config as SAConfig} from './configurations/geography_sa';
+import { Config as SAConfig } from './configurations/geography_sa';
 import Analytics from './analytics';
-import {API} from './api';
+import { API } from './api';
 import * as Sentry from '@sentry/browser';
-import { getHostname, loadDevTools }from './utils';
+import { getHostname, loadDevTools } from './utils';
 
 const mainUrl = 'https://v2.hurumap.org';
 const productionUrl = 'https://v2.hurumap.org';
@@ -19,7 +19,7 @@ const defaultConfig = new SAConfig();
 const isLocalhost = (hostname.indexOf("localhost") >= 0)
 
 if (!isLocalhost)
-    Sentry.init({dsn: 'https://aae3ed779891437d984db424db5c9dd0@o242378.ingest.sentry.io/5257787'});
+    Sentry.init({ dsn: 'https://aae3ed779891437d984db424db5c9dd0@o242378.ingest.sentry.io/5257787' });
 
 
 const profiles = {
@@ -88,7 +88,7 @@ const profiles = {
         config: config
     },
     'v2.pesayetu.pesacheck.org': {
-        baseUrl: 'https://v2.hurumap.org',
+        baseUrl: productionUrl,
         config: config
     }
 }
@@ -118,6 +118,5 @@ async function init() {
 
 window.init = init;
 loadDevTools(() => {
-  init();
+    init();
 })
-
