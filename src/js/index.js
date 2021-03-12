@@ -4,7 +4,6 @@ import configureApplication from './load';
 import { Config as SAConfig } from './configurations/geography_sa';
 import Analytics from './analytics';
 import { API } from './api';
-import * as Sentry from '@sentry/browser';
 import { getHostname, loadDevTools } from './utils';
 
 const mainUrl = 'http://127.0.0.1:8000';
@@ -15,12 +14,6 @@ let hostname = getHostname();
 const defaultProfile = 1;
 const defaultUrl = productionUrl;
 const defaultConfig = new SAConfig();
-
-const isLocalhost = (hostname.indexOf("localhost") >= 0)
-
-if (!isLocalhost)
-    Sentry.init({ dsn: 'https://aae3ed779891437d984db424db5c9dd0@o242378.ingest.sentry.io/5257787' });
-
 
 const profiles = {
     'wazi.webflow.io': {
