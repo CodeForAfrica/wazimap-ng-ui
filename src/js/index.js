@@ -6,12 +6,12 @@ import Analytics from './analytics';
 import { API } from './api';
 import { getHostname, loadDevTools } from './utils';
 
-const mainUrl = 'http://127.0.0.1:8000';
+const mainUrl = 'https://v2.hurumap.org';
 const productionUrl = 'https://v2.hurumap.org';
 let config = new SAConfig();
 
 let hostname = getHostname();
-const defaultProfile = 1;
+const defaultProfile = 3;
 const defaultUrl = productionUrl;
 const defaultConfig = new SAConfig();
 
@@ -25,7 +25,7 @@ const profiles = {
         config: config
     },
     'localhost-dev': {
-        baseUrl: 'http://localhost:8000',
+        baseUrl: mainUrl,
         config: config
     },
     'geo.vulekamali.gov.za': {

@@ -1,5 +1,5 @@
-import {schemeBlues as d3schemeBlues} from 'd3-scale-chromatic';
-import {RICH_DATA_PANEL, POINT_DATA_PANEL, DATA_EXPLORER_PANEL, NO_PANELS} from '../elements/side_panels';
+import { schemeBlues as d3schemeBlues } from 'd3-scale-chromatic';
+import { RICH_DATA_PANEL, POINT_DATA_PANEL, DATA_EXPLORER_PANEL, NO_PANELS } from '../elements/side_panels';
 
 export class Config {
 
@@ -14,7 +14,7 @@ export class Config {
     get profileId() {
         if (this.config.profileId != undefined)
             return this.config.profileId;
-        return 1;
+        return 3;
     }
 
     get defaultPanel() {
@@ -35,10 +35,10 @@ export class Config {
             config = this.config["preferred_children"]
 
         const defaultConfig = {
-            country: ['county']         
-        }        
+            country: ['county']
+        }
 
-        return {...defaultConfig, ...config}
+        return {...defaultConfig, ...config }
     }
 
     get geoViewTypes() {
@@ -46,7 +46,7 @@ export class Config {
             mainplace: ['mainplace', 'subplace'],
             ward: ['ward']
         }
-        
+
     }
 
     get geographyLevels() {
@@ -77,9 +77,9 @@ export class Config {
         const defaultConfig = {
             zoomControl: false,
             preferCanvas: true
-        } 
+        }
 
-        return {...defaultConfig, ...config}
+        return {...defaultConfig, ...config }
     }
 
     get defaultCoordinates() {
@@ -87,9 +87,9 @@ export class Config {
         if (this.config["default_coordinates"] != undefined)
             config = this.config["default_coordinates"]
 
-        const defaultConfig = {'lat': 0.3051933453207569, 'long':  37.908818734483155, 'zoom': 6}
+        const defaultConfig = { 'lat': 0.3051933453207569, 'long': 37.908818734483155, 'zoom': 6 }
 
-        return {...defaultConfig, ...config}
+        return {...defaultConfig, ...config }
     }
 
     get tileLayers() {
@@ -97,8 +97,7 @@ export class Config {
         if (this.config["tile_layers"] != undefined)
             return this.config["tile_layers"];
 
-        const defaultConfig = [
-            {
+        const defaultConfig = [{
                 url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png',
                 pane: 'tilePane',
                 zIndex: 200
@@ -124,7 +123,7 @@ export class Config {
             opacity_over: 0.8
         }
 
-        return {...defaultConfig, ...config}
+        return {...defaultConfig, ...config }
     }
 
     get mapColors() {
@@ -176,6 +175,6 @@ export class Config {
             }
         }
 
-        return {...default_color_config, ...color_config}
+        return {...default_color_config, ...color_config }
     }
 }

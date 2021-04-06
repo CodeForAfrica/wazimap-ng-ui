@@ -1,8 +1,8 @@
-import {Observable} from './utils';
-import {Geography, Profile, DataBundle} from './dataobjects';
+import { Observable } from './utils';
+import { Geography, Profile, DataBundle } from './dataobjects';
 
 export default class Controller extends Observable {
-    constructor(api, config, profileId = 1) {
+    constructor(api, config, profileId = 3) {
         super();
         this.config = config
         this.profileId = profileId;
@@ -194,7 +194,7 @@ export default class Controller extends Observable {
             setTimeout(() => {
                 if (callRegisterFunction) {
                     Webflow.require('ix2').init()
-                    // self.registerWebflowEvents();
+                        // self.registerWebflowEvents();
                 }
             }, 600)
             document.title = dataBundle.overview.name;
@@ -285,7 +285,7 @@ export default class Controller extends Observable {
         //this.triggerEvent("loadedGeography", payload);
         // TODO remove this once the best home is found for it
         Webflow.require('ix2').init()
-        // this.registerWebflowEvents();
+            // this.registerWebflowEvents();
     }
 
     onLoadedThemes(payload) {
