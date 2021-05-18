@@ -83,6 +83,92 @@ export default function configureApplication(profileId, config) {
     controller.on('profile.loaded', payload => {
         // there seems to be a bug where menu items close if this is not set
         $(".sub-category__dropdown_wrapper a").attr("href", "#")
+        let code = payload.payload.profile.geography.code;
+        if(code==='GB'){
+            $("div .section").eq(2).addClass("hidden");
+            $("div .section").eq(5).addClass("hidden");
+            $("div .section").eq(6).addClass("hidden");
+            $("div .section").eq(7).addClass("hidden");
+            $("div .section").eq(12).addClass("hidden");
+            $("div .section").eq(13).addClass("hidden");
+            $("div .section").eq(14).addClass("hidden");
+            $("div .section").eq(15).addClass("hidden");
+            $("div .section").eq(16).addClass("hidden");
+            $(".rich-data-nav__item").eq(2).addClass("hidden");
+            $(".rich-data-nav__item").eq(5).addClass("hidden");
+            $(".rich-data-nav__item").eq(6).addClass("hidden");
+            $(".rich-data-nav__item").eq(7).addClass("hidden");
+            $(".rich-data-nav__item").eq(12).addClass("hidden");
+            $(".rich-data-nav__item").eq(13).addClass("hidden");
+            $(".rich-data-nav__item").eq(14).addClass("hidden");
+            $(".rich-data-nav__item").eq(15).addClass("hidden");
+            $(".rich-data-nav__item").eq(16).addClass("hidden");
+
+            $("div .section").eq(1).removeClass("hidden");
+            $("div .section").eq(3).removeClass("hidden");
+            $("div .section").eq(4).removeClass("hidden");
+            $("div .section").eq(8).removeClass("hidden");
+            $("div .section").eq(9).removeClass("hidden");
+            $("div .section").eq(10).removeClass("hidden");
+            $("div .section").eq(11).removeClass("hidden");
+            $("div .section").eq(17).removeClass("hidden");
+            $("div .section").eq(18).removeClass("hidden");
+            $("div .section").eq(19).removeClass("hidden");
+            $("div .section").eq(20).removeClass("hidden");
+            $(".rich-data-nav__item").eq(1).removeClass("hidden");
+            $(".rich-data-nav__item").eq(3).removeClass("hidden");
+            $(".rich-data-nav__item").eq(4).removeClass("hidden");
+            $(".rich-data-nav__item").eq(8).removeClass("hidden");
+            $(".rich-data-nav__item").eq(9).removeClass("hidden");
+            $(".rich-data-nav__item").eq(10).removeClass("hidden");
+            $(".rich-data-nav__item").eq(11).removeClass("hidden");
+            $(".rich-data-nav__item").eq(17).removeClass("hidden");
+            $(".rich-data-nav__item").eq(18).removeClass("hidden");
+            $(".rich-data-nav__item").eq(19).removeClass("hidden");
+            $(".rich-data-nav__item").eq(20).removeClass("hidden");
+        }else{
+            $("div .section").eq(1).addClass("hidden");
+            $("div .section").eq(3).addClass("hidden");
+            $("div .section").eq(4).addClass("hidden");
+            $("div .section").eq(8).addClass("hidden");
+            $("div .section").eq(9).addClass("hidden");
+            $("div .section").eq(10).addClass("hidden");
+            $("div .section").eq(11).addClass("hidden");
+            $("div .section").eq(17).addClass("hidden");
+            $("div .section").eq(18).addClass("hidden");
+            $("div .section").eq(19).addClass("hidden");
+            $("div .section").eq(20).addClass("hidden");
+            $(".rich-data-nav__item").eq(1).addClass("hidden");
+            $(".rich-data-nav__item").eq(3).addClass("hidden");
+            $(".rich-data-nav__item").eq(4).addClass("hidden");
+            $(".rich-data-nav__item").eq(8).addClass("hidden");
+            $(".rich-data-nav__item").eq(9).addClass("hidden");
+            $(".rich-data-nav__item").eq(10).addClass("hidden");
+            $(".rich-data-nav__item").eq(11).addClass("hidden");
+            $(".rich-data-nav__item").eq(17).addClass("hidden");
+            $(".rich-data-nav__item").eq(18).addClass("hidden");
+            $(".rich-data-nav__item").eq(19).addClass("hidden");
+            $(".rich-data-nav__item").eq(20).addClass("hidden");
+
+            $("div .section").eq(2).removeClass("hidden");
+            $("div .section").eq(5).removeClass("hidden");
+            $("div .section").eq(6).removeClass("hidden");
+            $("div .section").eq(7).removeClass("hidden");
+            $("div .section").eq(12).removeClass("hidden");
+            $("div .section").eq(13).removeClass("hidden");
+            $("div .section").eq(14).removeClass("hidden");
+            $("div .section").eq(15).removeClass("hidden");
+            $("div .section").eq(16).removeClass("hidden");
+            $(".rich-data-nav__item").eq(2).removeClass("hidden");
+            $(".rich-data-nav__item").eq(5).removeClass("hidden");
+            $(".rich-data-nav__item").eq(6).removeClass("hidden");
+            $(".rich-data-nav__item").eq(7).removeClass("hidden");
+            $(".rich-data-nav__item").eq(12).removeClass("hidden");
+            $(".rich-data-nav__item").eq(13).removeClass("hidden");
+            $(".rich-data-nav__item").eq(14).removeClass("hidden");
+            $(".rich-data-nav__item").eq(15).removeClass("hidden");
+            $(".rich-data-nav__item").eq(16).removeClass("hidden");
+        }
     })
 
 
