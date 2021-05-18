@@ -26,7 +26,7 @@ export class Config {
     get rootGeography() {
         if (this.config["root_geography"] != undefined)
             return this.config["root_geography"];
-        return "ZA";
+        return "GB";
     }
 
     get preferredChildren() {
@@ -35,6 +35,7 @@ export class Config {
             config = this.config["preferred_children"]
 
         const defaultConfig = {
+            global: ['region'],
             country: ['province'],
             province: ['district', 'municipality'],
             district: ['municipality'],
@@ -55,6 +56,8 @@ export class Config {
 
     get geographyLevels() {
         return {
+            global: 'Global',
+            region: 'Region',
             country: 'Country',
             province: 'Province',
             district: 'District',
@@ -96,7 +99,7 @@ export class Config {
         if (this.config["default_coordinates"] != undefined)
             config = this.config["default_coordinates"]
 
-        const defaultConfig = {'lat': -28.995409163308832, 'long': 25.093833387362697, 'zoom': 6}
+        const defaultConfig = {'lat': 28.995409163308832, 'long': 25.093833387362697, 'zoom': 3}
 
         return {...defaultConfig, ...config}
     }

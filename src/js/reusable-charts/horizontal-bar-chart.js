@@ -12,7 +12,7 @@ export function horizontalBarChart() {
         data: [],
         width: 760,
         height: 450,
-        colors: ['#39ad84', '#339b77'],
+        colors: ['#22358a', '#22358a'],
         xAxisPadding: 10,
         yAxisPadding: 10,
         xLabelPadding: 10,

@@ -57,7 +57,7 @@ export class Chart extends Observable {
         chart
             .height(450)
             .width(760)
-            .colors(['#39ad84', '#339b77'])
+            .colors(['#fdb71d', '#f39225'])
             .xAxisPadding(10) //padding of the xAxis values(numbers)
             .yAxisPadding(10)
             .xLabelPadding(30)    //padding of the label

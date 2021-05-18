@@ -7,8 +7,8 @@ import {API} from './api';
 import * as Sentry from '@sentry/browser';
 import { getHostname, loadDevTools }from './utils';
 
-const mainUrl = 'https://staging.wazimap-ng.openup.org.za';
-const productionUrl = 'https://production.wazimap-ng.openup.org.za';
+const mainUrl = 'https://gmmp.wazimap.api.codeforafrica.org';
+const productionUrl = 'https://gmmp.wazimap.api.codeforafrica.org';
 let config = new SAConfig();
 
 let hostname = getHostname();
