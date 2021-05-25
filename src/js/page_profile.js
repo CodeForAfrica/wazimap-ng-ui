@@ -392,7 +392,7 @@ export default class ProfileLoader {
 
         chart.height(450);
         chart.width(760);
-        chart.colors(['#39ad84', '#339b77']);
+        chart.colors(['#fdb71d', '#339b77']);
         chart.xAxisPadding(10);
         chart.yAxisPadding(10);
         chart.barHeight(24);

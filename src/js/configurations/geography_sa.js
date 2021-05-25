@@ -143,11 +143,11 @@ export class Config {
         return {
             main: {
                 fill: "#cccccc",
-                hover: "#3BAD84"
+                hover: "#fdb71d"
             },
             secondary: {
                 fill: "#ffffff",
-                hover: "#3BAD84"
+                hover: "#fdb71d"
             }
         }
     }

@@ -176,11 +176,11 @@ a {
 }
 
 .panel-toggle:hover {
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .panel-toggle.cc-active {
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .rich-data {
@@ -305,7 +305,7 @@ a {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   border-radius: 2px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 0.6em;
   letter-spacing: 1px;
@@ -831,7 +831,7 @@ a {
 }
 
 .rich-data-nav__item.w--current {
-  border-right-color: #39ad84;
+  border-right-color: #fdb71d;
   background-color: #fff;
   color: #333;
   white-space: nowrap;
@@ -996,7 +996,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .category-header {
@@ -1106,7 +1106,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: 3px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
 }
 
 .sub-category-header__description {
@@ -1941,7 +1941,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   background-image: none;
 }
 
@@ -2251,7 +2251,7 @@ a {
   margin-top: 6px;
   margin-bottom: 6px;
   margin-left: 6px;
-  color: #39ad84;
+  color: #fdb71d;
   font-size: 0.85em;
   text-transform: uppercase;
 }
@@ -2304,7 +2304,7 @@ a {
 
 .nav__menu_trigger:hover {
   border-radius: 0px;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .nav__search_input {
@@ -3412,7 +3412,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 2px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   background-image: none;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -3883,7 +3883,7 @@ a {
   -ms-flex: 1;
   flex: 1;
   border-radius: 2px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
 }
 
 .filters__header_close {
@@ -4435,7 +4435,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   color: #fff;
   font-size: 0.65em;
   line-height: 100%;

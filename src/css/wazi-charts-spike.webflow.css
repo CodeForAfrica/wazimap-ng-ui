@@ -430,7 +430,7 @@ a {
 }
 
 .color-block.cc-brand-color-1 {
-  background-color: #39ad84;
+  background-color: #fdb71d;
 }
 
 .color-block.cc-brand-color-2 {
@@ -1024,7 +1024,7 @@ a {
 }
 
 .toggle__icon--horizontal:hover {
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .link__h1_icon {
@@ -1313,7 +1313,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 2px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   background-image: none;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -1676,7 +1676,7 @@ a {
   z-index: -1;
   width: 60%;
   height: 10px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
 }
 
 .sub-indicator__chart_footer {
@@ -1868,7 +1868,7 @@ a {
   align-items: center;
   border-radius: 2px;
   background-color: #e6e6e6;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .data-category__title_wrapper--with-icon {
@@ -2192,7 +2192,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: 4px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
 }
 
 .indicator__title_wrapper {
@@ -2302,7 +2302,7 @@ a {
 
 .nav__menu_trigger:hover {
   border-radius: 0px;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .nav__search {
@@ -2410,7 +2410,7 @@ a {
   align-items: center;
   border-style: solid;
   border-width: 1px;
-  border-color: #39ad84;
+  border-color: #fdb71d;
   border-radius: 2px;
   background-color: #333;
   -webkit-transition: all 200ms ease;
@@ -2759,7 +2759,7 @@ a {
 }
 
 .point-data__icon:hover {
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .point-data__trigger_header {
@@ -3187,7 +3187,7 @@ a {
   align-items: center;
   border-style: solid;
   border-width: 1px;
-  border-color: #39ad84;
+  border-color: #fdb71d;
   border-radius: 2px;
   background-color: #333;
   -webkit-transition: all 200ms ease;
@@ -3539,7 +3539,7 @@ a {
   border-width: 1px;
   border-color: #ade4d0;
   border-radius: 24px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.5);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -3765,7 +3765,7 @@ a {
   margin-top: 6px;
   margin-bottom: 6px;
   margin-left: 6px;
-  color: #39ad84;
+  color: #fdb71d;
   font-size: 0.85em;
   text-transform: uppercase;
 }
@@ -4085,7 +4085,7 @@ a {
   border-width: 1px;
   border-color: #ade4d0;
   border-radius: 4px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   box-shadow: 0 8px 12px -4px rgba(0, 0, 0, 0.3);
   color: hsla(0, 0%, 100%, 0.82);
   font-size: 0.85em;
@@ -4102,7 +4102,7 @@ a {
   margin-top: -6px;
   border-bottom: 1px solid #ade4d0;
   border-left: 1px solid #ade4d0;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -4161,7 +4161,7 @@ a {
 }
 
 .dropdown-arrow:hover {
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .tutorial-icon {
@@ -4201,7 +4201,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   color: #fff;
   font-size: 0.65em;
   line-height: 100%;
@@ -4670,7 +4670,7 @@ a {
 
 .content__rich-data--open:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .tutorial__toggle--alt {
@@ -4701,7 +4701,7 @@ a {
   border-width: 1px;
   border-color: #ade4d0;
   border-radius: 4px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   box-shadow: 0 8px 12px -4px rgba(0, 0, 0, 0.3);
   color: hsla(0, 0%, 100%, 0.82);
 }
@@ -4814,7 +4814,7 @@ a {
   max-width: 250px;
   border-style: solid;
   border-width: 1px;
-  border-color: #39ad84;
+  border-color: #fdb71d;
   background-color: #333;
 }
 
@@ -4851,13 +4851,13 @@ a {
   box-shadow: 8px 0 10px 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
-  color: #39ad84;
+  color: #fdb71d;
   cursor: pointer;
 }
 
 .content__rich-data--close:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .tooltip {
@@ -5459,7 +5459,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   font-size: 0.6em;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -6151,7 +6151,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   background-image: none;
 }
 
@@ -7322,7 +7322,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: #39ad84;
+  background-color: #fdb71d;
   color: #fff;
   font-size: 0.65em;
   line-height: 100%;
@@ -7615,7 +7615,7 @@ a {
 
 .content__data-mapper--open:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__data-mapper--open.hide {
@@ -7650,13 +7650,13 @@ a {
   box-shadow: 8px 0 10px 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
-  color: #39ad84;
+  color: #fdb71d;
   cursor: pointer;
 }
 
 .content__data-mapper--close:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__data-mapper--close.hide {
@@ -7695,7 +7695,7 @@ a {
 
 .content__point-data--open:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__point-data--open.hide {
@@ -7729,13 +7729,13 @@ a {
   box-shadow: 8px 0 10px 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
-  color: #39ad84;
+  color: #fdb71d;
   cursor: pointer;
 }
 
 .content__point-data--close:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__point-data--close.hide {
@@ -7774,7 +7774,7 @@ a {
 
 .content__rich-data-panel--open:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__rich-data-panel--open.hide {
@@ -7808,13 +7808,13 @@ a {
   box-shadow: 8px 0 10px 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
-  color: #39ad84;
+  color: #fdb71d;
   cursor: pointer;
 }
 
 .content__rich-data-panel--close:hover {
   background-color: #f7f7f7;
-  color: #39ad84;
+  color: #fdb71d;
 }
 
 .content__rich-data-panel--close.hide {
