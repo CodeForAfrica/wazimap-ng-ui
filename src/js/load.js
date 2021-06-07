@@ -103,6 +103,9 @@ export default function configureApplication(profileId, config) {
             $(".rich-data-nav__item").eq(14).addClass("hidden");
             $(".rich-data-nav__item").eq(15).addClass("hidden");
             $(".rich-data-nav__item").eq(16).addClass("hidden");
+            $(".sub-category-header__title").eq(0).addClass("hidden");
+            $(".sub-category-header__title").eq(3).addClass("hidden");
+            $(".sub-category-header__title").eq(10).addClass("hidden");
 
             $("div .section").eq(1).removeClass("hidden");
             $("div .section").eq(3).removeClass("hidden");
@@ -168,6 +171,9 @@ export default function configureApplication(profileId, config) {
             $(".rich-data-nav__item").eq(14).removeClass("hidden");
             $(".rich-data-nav__item").eq(15).removeClass("hidden");
             $(".rich-data-nav__item").eq(16).removeClass("hidden");
+            $(".sub-category-header__title").eq(0).removeClass("hidden");
+            $(".sub-category-header__title").eq(3).removeClass("hidden");
+            $(".sub-category-header__title").eq(10).removeClass("hidden");
         }
     })
 
